@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite" verbose="1" thread-count="2" parallel="methods">
+
+    <listeners>
+        <listener class-name="com.epam.framework.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Login Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.framework.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.framework.tests.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.framework.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>

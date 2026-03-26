@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Suite" verbose="1" thread-count="1">
+
+    <listeners>
+        <listener class-name="com.epam.framework.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.framework.tests.LoginTest"/>
+            <class name="com.epam.framework.tests.CartTest"/>
+            <class name="com.epam.framework.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
