@@ -1,7 +1,7 @@
 # BDD Test Automation — Cucumber-JVM on top of Selenium Page Objects
 
 > **Module 5 of my EPAM Test Automation track.** Each module added one layer to the same Selenium framework.
-> 👉 The complete, final version lives in **[selenium-framework-patterns](https://github.com/gomezLucila25/selenium-framework-patterns)**.
+> The complete, final version lives in **[selenium-framework-patterns](https://github.com/gomezLucila25/selenium-framework-patterns)**.
 
 ## What this module added
 
